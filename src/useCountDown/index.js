@@ -5,8 +5,13 @@ function useCountDown(second = 0) {
   const clock = useRef();
 
   const tick = () => {
-    if (remain === 0) return;
-    setRemain((prev) => prev - 1);
+    setRemain((prev) => {
+      if (prev === 0) {
+        clearInterval(clock.current);
+        return 0;
+      }
+      return prev - 1;
+    });
   };
 
   const start = () => {

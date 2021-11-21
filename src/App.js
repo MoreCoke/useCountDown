@@ -2,7 +2,7 @@ import React from 'react';
 import useCountDown from './useCountDown';
 
 function App() {
-  const { remain, start, pause, reset } = useCountDown(100);
+  const { remain, start, pause, reset } = useCountDown(5);
   return (
     <div className="App">
       <p>{remain}</p>
