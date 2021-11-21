@@ -2,19 +2,19 @@
 
 ## P0
 
-- [ ] start
+- [x] start
 
-- [ ] pause
+- [x] pause
 
 - [ ] resume
 
-- [ ] reset
+- [x] reset
 
 - [ ] stop
 
 ## P1
 
-- [ ] 用 setInterval 寫
+- [x] 用 setInterval 寫
 
 - [ ] 用 setAnimationFrame 寫
 
