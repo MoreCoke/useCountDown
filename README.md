@@ -18,7 +18,7 @@
 
 - [ ] 用 setAnimationFrame 寫
 
-- [ ] 用 useReducer 寫
+- [x] 用 useReducer 寫
 
 ## 學習目標
 

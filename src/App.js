@@ -1,5 +1,6 @@
 import React from 'react';
-import useCountDown from './useCountDown';
+// import useCountDown from './useCountDown';
+import useCountDown from './useCountDown/reducer';
 
 function App() {
   const { remain, start, pause, reset } = useCountDown(5);
